@@ -22,8 +22,3 @@ string intervention::getintervention()
 {
 return number;
 }
-
-int test()
-{
-  
-}
