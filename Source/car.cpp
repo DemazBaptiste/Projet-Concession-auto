@@ -1,23 +1,23 @@
-#include "../lib/car.hpp"
+#include "../lib/Car.hpp"
 
-void car::car()
+void Car::Car()
 {
 
 }
 
-void car::setid(string i)
+void Car::setid(string i)
 {
   id = i ;
 }
-void car::printcar(){
+void Car::printCar(){
   cout <<"imatriculation n° : "<<id<<"\n"<<"marque :"<<brand<<"\n";
 }
 
-string car::getbrand()
+string Car::getbrand()
 {
   return brand;
 }
-string car::getid()
+string Car::getid()
 {
   return id;
 }
@@ -57,7 +57,7 @@ string getprice()
 
 }
 
-void printcar()
+void printCar()
 {
 
 }

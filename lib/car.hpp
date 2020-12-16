@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-class car 
+class Car 
 {
   private:
 		string brand;
@@ -12,9 +12,9 @@ class car
     string id;
 
   public:
-    car();
-		~car();
-    car(string ,string );
+    Car();
+		~Car();
+    Car(string ,string );
     void setbrand(string brand);
 		string getbrand();
 		void setmodel(string brand);
@@ -23,5 +23,5 @@ class car
     string getid();
 		void setprice(double price);
     string getprice();
-		void printcar();
+		void printCar();
 };
