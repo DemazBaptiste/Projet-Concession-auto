@@ -12,16 +12,6 @@ Human::~Human()
 
 }
 
-void Human::setLName(string _Name)
-{
-  LName = _Name;
-}
-
-string Human::getLName()
-{
-  return LName;
-}
-
 void Human::setFName(string _Surname)
 {
   FName = _Surname;
@@ -30,6 +20,16 @@ void Human::setFName(string _Surname)
 string Human::getFName()
 {
   return FName;
+}
+
+void Human::setLName(string _Name)
+{
+  LName = _Name;
+}
+
+string Human::getLName()
+{
+  return LName;
 }
 
 void Human::setDate(string _Date)

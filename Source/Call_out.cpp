@@ -1,24 +1,10 @@
-#include "../lib/intervention.hpp"
+#include "../lib/Call_out.hpp"
 
-intervention::intervention(){
-  number = "0000" ;
+Call_out::Call_out(string cu, string em, string ca){
+  idCustomer = cu;
+  idEmployee = em;
+  idCar = ca;
 }
-intervention::intervention(string n){
-  number = n;
-}
-void intervention::printintervention(){
-  cout <<"id de l'intervention : "<<number<<"\n";
-}
-
-void intervention::setnumber(string n)
-{
-  number = n ;
-}
-string intervention::getnumber()
-{
-  return number;
-}
-string intervention::getintervention()
-{
-return number;
+void Call_out::printCall_out(){
+  cout <<"intervention : "<<"\n"; // TODO
 }

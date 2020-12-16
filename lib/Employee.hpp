@@ -2,13 +2,13 @@
 #include <iterator>
 using namespace std;
 
-class Human:Employee
+class Employee : Human
 {
   public:
    Employee();
    ~Employee();
 
-	 operate();
+	 void operate();
 
    void write_syntax();
 };

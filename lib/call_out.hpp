@@ -3,15 +3,15 @@
 #include <string>
 using namespace std;
 
-class call_out 
+class Call_out 
 {
   private:
-
     string idCustomer;
 		string idEmployee;
 		string idCar;
 
   public:
-    intervention(string, string, string);
-		print_call_out();
+    Call_out(string, string, string);
+
+    void printCall_out();
 };
