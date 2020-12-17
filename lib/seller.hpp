@@ -4,20 +4,11 @@
 
 using namespace std;
 
-class seller 
+class Seller : public Employee
 {
-  private:
-
-    string number;
-    string prénom;
 
   public:
-    seller();
-    seller(int n,string p);
-    void printnumber();
-    void getseller(string nom);
-    void setnumber(string number);
-    void setsurname(string p);
-    string getnumber();
-    string getname();
+    Seller();
+    void sell(string, string);
+    void write_syntax();
 };

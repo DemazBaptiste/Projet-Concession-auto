@@ -2,13 +2,15 @@
 #include <iterator>
 using namespace std;
 
-class Employee : Human
+class Employee : public Human
 {
   public:
-   Employee();
-   ~Employee();
+  string idEmployee;
 
-	 void operate();
+  Employee();
+  ~Employee();
 
-   void write_syntax();
+  void operate();
+
+  void write_syntax();
 };

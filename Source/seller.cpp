@@ -1,33 +1,13 @@
-#include "../lib/seller.hpp"
+#include "../lib/Seller.hpp"
+#include"../lib/Employee.hpp"
 
-seller::seller(){
-  number = "0000" ;
+Seller::Seller(){
+  Employee();
+  //TODO set seller idEmployee
 }
-seller::seller(int n,string p)
-{
-  number = n;
-  prénom = p;
+void Seller::sell(string idCustomer, string idCar){
+  //TODO create corresponding Call_out;
 }
-void seller::setsurname(string p)
-{
-  prénom = p ;
-}
-void seller::printnumber(){
-  cout <<number;
-}
-void seller::setnumber(string n)
-{
-  number = n ;
-}
-void seller::getseller(string p)
-{
-  prénom = p ;
-}
-string seller::getnumber()
-{
-  return number;
-}
-string seller::getname()
-{
-  return number;
+void Seller::write_syntax(){
+  //TODO
 }
