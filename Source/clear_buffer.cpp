@@ -1,3 +1,7 @@
+#include <iostream>
+
+using namespace std;
+
 void clear_buffer()
 {
     cin.clear();
