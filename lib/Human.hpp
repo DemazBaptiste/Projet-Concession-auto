@@ -7,9 +7,9 @@ using namespace std;
 class Human
 {
   public:
-  string LName;
-  string FName;
-  string Date;
+  string lName;
+  string fName;
+  string date;
   Human();
   ~Human();
   void setFName(string _Name);

@@ -14,27 +14,27 @@ Human::~Human()
 
 void Human::setFName(string _Surname)
 {
-  FName = _Surname;
+  fName = _Surname;
 }
 
 string Human::getFName()
 {
-  return FName;
+  return fName;
 }
 
 void Human::setLName(string _Name)
 {
-  LName = _Name;
+  lName = _Name;
 }
 
 string Human::getLName()
 {
-  return LName;
+  return lName;
 }
 
 void Human::setDate(string _Date)
 {
-  Date = _Date;
+  date = _Date;
 }
 
 std::string Human::getDate()
