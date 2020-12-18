@@ -8,7 +8,8 @@ class Seller : public Employee
 {
 
   public:
-    Seller();
+    Seller(string, string, string);
+    ~Seller();
     void sell(string, string);
     void write_syntax();
 };
