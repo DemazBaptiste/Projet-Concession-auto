@@ -1,4 +1,4 @@
-#include "Stock.hpp"
+#include "../lib/Stock.hpp"
 
 
 Stock::Stock()

@@ -7,9 +7,6 @@ using namespace std;
 
 class Stock
 {
-    private:
-     string Car;
-    
     public:
     Stock();
     ~Stock();
