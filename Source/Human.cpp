@@ -1,10 +1,10 @@
-#include"../lib/Human.hpp"
+#include "../lib/Human.hpp"
+#include <iostream>
+#include "clear_buffer.cpp"
 
 Human::Human()
 {
-  LName = "";
-  FName = "";
-  Date = "";
+
 }
 
 Human::~Human()
@@ -39,12 +39,12 @@ void Human::setDate(string _Date)
 
 std::string Human::getDate()
 {
-  return Date;
+  return date;
 }
 
 void Human::write_syntax()
 {
-  std::cout << "Nom : " << LName << "\nPrénom : " << FName << "\nDate : " << Date <<
+  std::cout << "Nom : " << lName << "\nPrénom : " << fName << "\nDate : " << date <<
   "\nPhone : " << "\n";
 }
 
