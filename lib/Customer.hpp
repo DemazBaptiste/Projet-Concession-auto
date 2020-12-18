@@ -8,7 +8,7 @@ class Customer : public Human
   public:
   string idCustomer;
 
-  Customer();
+  Customer(string, string, string);
   ~Customer();
 
   void operate();

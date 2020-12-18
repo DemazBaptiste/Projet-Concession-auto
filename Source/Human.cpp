@@ -2,9 +2,11 @@
 #include <iostream>
 
 
-Human::Human()
+Human::Human(string f, string l, string d)
 {
-
+  fName = f;
+  lName = l;
+  date = d;
 }
 
 Human::~Human()

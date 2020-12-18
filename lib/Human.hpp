@@ -10,7 +10,7 @@ class Human
   string lName;
   string fName;
   string date;
-  Human();
+  Human(string, string, string);
   ~Human();
   void setFName(string _Name);
   string getFName();

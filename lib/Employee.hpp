@@ -8,7 +8,7 @@ class Employee : public Human
   public:
   string idEmployee;
 
-  Employee();
+  Employee(string, string, string);
   ~Employee();
 
   void operate();
