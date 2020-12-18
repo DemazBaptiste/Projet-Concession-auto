@@ -15,13 +15,13 @@ class car
     car();
 		~car();
     car(string ,string );
-    void setbrand(string brand);
+    void setbrand(string _brand);
 		string getbrand();
-		void setmodel(string brand);
+		void setmodel(string _brand);
 		string getmodel();
     void setid(string name);
     string getid();
-		void setprice(double price);
-    string getprice();
+		void setprice(float _price);
+    float getprice();
 		void printcar();
 };
