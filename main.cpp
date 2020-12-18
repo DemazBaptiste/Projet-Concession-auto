@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include "lib/Customer.hpp"
+#include "lib/all_list.hpp"
 using namespace std;
 
 void clear_buffer()
@@ -31,12 +32,12 @@ void funct_disp()
   cout << "Date :";
   cin >> tmp3;
 
-  cout << tmp << " " << tmp2 << " " << tmp3 << endl;
   Customer H1;
-  /*H1.setFName(tmp);
+  H1.setFName(tmp);
   H1.setLName(tmp2);
   H1.setDate(tmp3);
-  H1.write_syntax();*/
+  H1.write_syntax();
+  all_customer.add_customer_to_list(H1);
   
 }
 

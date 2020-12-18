@@ -8,13 +8,6 @@ Human::Human()
 
 }
 
-Human::Human(string f, string l, string d)
-{
-  fName = f;
-  lName = l;
-  date = d;
-}
-
 Human::~Human()
 {
 
@@ -52,8 +45,7 @@ std::string Human::getDate()
 
 void Human::write_syntax()
 {
- // std::cout << "Nom : " << lName << "\nPrénom : " << fName << "\nDate : " << date << "\n";
-  cout << "OK";
+ std::cout << "Nom : " << lName << "\nPrénom : " << fName << "\nDate : " << date << "\n";
 }
 
 

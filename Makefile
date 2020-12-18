@@ -3,9 +3,9 @@ OBJ	=	$(SRC:.cpp=.o)
 
 NAME	=	my_garage
 
-SRC	=	main.cpp\
+SRC	=	Source/Human.cpp\
 		Source/Customer.cpp\
-		Source/Human.cpp\
+		main.cpp
 
 LDFLAGS	=	-g3
 
@@ -16,7 +16,7 @@ CC	=	g++
 all:	$(NAME)
 
 $(NAME):	$(OBJ)
-	$(CC) $(CXXFLAGS) -o $(NAME) $(SRC) $(LDFLAGS) $(NCURSES)
+	$(CC) $(CFLAGS) -o $(NAME) $(SRC) $(LDFLAGS) $(NCURSES)
 
 clean:
 	$(RM) $(OBJ)
