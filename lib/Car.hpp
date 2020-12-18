@@ -8,7 +8,7 @@ class Car
   private:
 		string brand;
 		string model;
-		double price;
+		float price;
     string id;
 
   public:
