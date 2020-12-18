@@ -23,8 +23,8 @@ Customer::~Customer()
 
 int already_exist(Customer_list ac, string id )
 {
-    for (int i = 0; i < ae.membres.size(); i++){
-        if(ac.membres[i].idEmployee == id){
+    for (int i = 0; i < ac.membres.size(); i++){
+        if(ac.membres[i].idCustomer == id){
             return 1;
         }
     }
