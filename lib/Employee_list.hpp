@@ -9,8 +9,8 @@ class Employee_list
   public:
   Employee_list();
   ~Employee_list();
-  void add_customers_to_list(Employee myEmployee);
-  void remove_customers_list();
+  void add_employee_to_list(Employee myEmployee);
+  void remove_employee_list();
   void Look_tab();
   vector <Employee> membres;
 
