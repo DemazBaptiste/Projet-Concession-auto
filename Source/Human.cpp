@@ -8,6 +8,12 @@ Human::Human()
 
 }
 
+Human::Human(string f, string l, string d)
+{
+  setFName(f);
+  setLName(l);
+  setDate(d);
+}
 Human::~Human()
 {
 
