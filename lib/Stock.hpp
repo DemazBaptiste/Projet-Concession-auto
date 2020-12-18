@@ -10,5 +10,6 @@ class stock
      string car;
     
     public:
-     
+    Stock();
+    ~Stock();
 };
