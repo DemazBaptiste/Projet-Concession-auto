@@ -3,6 +3,7 @@
 #include"../lib/Human.hpp"
 #include"../lib/Employee.hpp"
 #include"../lib/Employee_list.hpp"
+#include "../lib/all_list.hpp"
 
 
 Employee::Employee(string f, string l, string d, string q){

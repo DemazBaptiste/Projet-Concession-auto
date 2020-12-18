@@ -1,4 +1,5 @@
 #include "../lib/Customer_list.hpp"
+#include "../lib/all_list.hpp"
 
 Customer_list::Customer_list()
 {
