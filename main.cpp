@@ -33,10 +33,12 @@ void funct_disp()
   cin >> tmp3;
 
   Customer H1;
-  H1.setFName(tmp);
+  /*H1.setFName(tmp);
   H1.setLName(tmp2);
-  H1.setDate(tmp3);
+  H1.setDate(tmp3);*/
+  H1 = Customer(tmp, tmp2, tmp3);
   H1.write_syntax();
+  cout << "ID : " << H1.idCustomer << "\n";
   all_customer.add_customer_to_list(H1);
   
 }
