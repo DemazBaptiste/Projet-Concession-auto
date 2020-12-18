@@ -12,6 +12,7 @@ class Call_out
 
   public:
     Call_out(string, string, string);
-
+    string GetID();
+    void SetID();
     void printCall_out();
 };

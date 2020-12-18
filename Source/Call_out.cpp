@@ -8,3 +8,12 @@ Call_out::Call_out(string cu, string em, string ca){
 void Call_out::printCall_out(){
   cout <<"intervention : "<<"\n"; // TODO
 }
+string Call_out::GetID(){
+
+}
+void Call_out::SetID(){
+
+}
+void Call_out::printCall_out(){
+  
+}

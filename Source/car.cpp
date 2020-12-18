@@ -1,6 +1,10 @@
 #include "../lib/Car.hpp"
 
+<<<<<<< HEAD
 void Car::Car()
+=======
+car::car()
+>>>>>>> d64569cf3874f86bb392288d4ccb1ee2cad2110f
 {
 
 }
@@ -9,9 +13,12 @@ void Car::setid(string i)
 {
   id = i ;
 }
+<<<<<<< HEAD
 void Car::printCar(){
   cout <<"imatriculation n° : "<<id<<"\n"<<"marque :"<<brand<<"\n";
 }
+=======
+>>>>>>> d64569cf3874f86bb392288d4ccb1ee2cad2110f
 
 string Car::getbrand()
 {
@@ -22,42 +29,34 @@ string Car::getid()
   return id;
 }
 
-void setbrand(string brand){
-
-}
-
-string getbrand(){
-
-}
-
-void setmodel(string brand)
+void car::setbrand(string _brand)
 {
-
+  brand = _brand;
 }
-string getmodel()
+
+void car::setmodel(string _brand)
 {
-
+  model = _brand;
 }
-
-void setid(string name)
+string car::getmodel()
 {
-
+ return model;
 }
-string getid()
+
+void car::setprice(float _price)
 {
-
+  price = _price;
 }
-
-void setprice(double price)
+float car::getprice()
 {
-
-}
-string getprice()
-{
-
+  return price;
 }
 
+<<<<<<< HEAD
 void printCar()
+=======
+void car::printcar()
+>>>>>>> d64569cf3874f86bb392288d4ccb1ee2cad2110f
 {
-
+  cout <<"immatriculation n° : "<<id<<"\n"<<"marque :"<<brand<<"\n";
 }
