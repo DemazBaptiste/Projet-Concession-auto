@@ -1,6 +1,12 @@
 #include "../lib/Human.hpp"
 #include <iostream>
 
+using namespace std;
+
+Human::Human()
+{
+
+}
 
 Human::Human(string f, string l, string d)
 {
@@ -46,7 +52,8 @@ std::string Human::getDate()
 
 void Human::write_syntax()
 {
-  std::cout << "Nom : " << lName << "\nPrénom : " << fName << "\nDate : " << date << "\n";
+ // std::cout << "Nom : " << lName << "\nPrénom : " << fName << "\nDate : " << date << "\n";
+  cout << "OK";
 }
 
 

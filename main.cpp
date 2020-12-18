@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "lib/Human.hpp"
+#include "lib/Customer.hpp"
 using namespace std;
 
 void clear_buffer()
@@ -18,12 +18,31 @@ void clear_buffer()
         cin.clear(); // Le flux est dans un état invalide donc on le remet en état valide
     }
 }
-int Sous_menu_customers()
+void funct_disp()
 {
-  int choiceMenu2; //variable stockant le choix sous menu
   string tmp; // First name
   string tmp2; // Last name
   string tmp3; // Date
+
+  cout << "First Name : ";
+  cin >> tmp;
+  cout << "Last Name :";
+  cin >> tmp2;
+  cout << "Date :";
+  cin >> tmp3;
+
+  cout << tmp << " " << tmp2 << " " << tmp3 << endl;
+  Customer H1;
+  /*H1.setFName(tmp);
+  H1.setLName(tmp2);
+  H1.setDate(tmp3);
+  H1.write_syntax();*/
+  
+}
+
+int Sous_menu_customers()
+{
+  int choiceMenu2; //variable stockant le choix sous menu
  
 
     std::cout<<"\n-----SOUS-MENU-----\n"<<"Choice 1 : Modifier\n"<<"Choice 2 : Ajouter \n"<<"Choice 3 : Supprimer \n"<<"Choice 4 : Liste\n"<<"\n";
@@ -39,23 +58,17 @@ int Sous_menu_customers()
     switch(choiceMenu2)
     {
       case 1 :
-
+        return 0;
         break ;
-      case 2 :
-        cout << "First Name : ";
-        cin >> tmp;
-        cout << "Last Name :";
-        cin >> tmp2;
-        cout << "Date :";
-        cin >> tmp3;
-        Human H1 = Human(tmp, tmp2, tmp3);
-        H1.write_syntax();
+      case 2 :{
+        funct_disp();
         break;
+      }
       case 3 :
-
+        return 0;
         break;
       case 4 :
-
+        return 0;
         break;
     }
     return 0;
@@ -232,5 +245,5 @@ int Menu1()
 int main()
 {
 Menu1();
-return 0;
+return(0);
 }

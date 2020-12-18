@@ -1,3 +1,6 @@
+#ifndef DEF_HUMAN
+#define DEF_HUMAN
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -10,6 +13,7 @@ class Human
   string lName;
   string fName;
   string date;
+  Human();
   Human(string, string, string);
   ~Human();
   void setFName(string _Name);
@@ -20,3 +24,5 @@ class Human
   string getDate();
   void write_syntax();
 };
+
+#endif
