@@ -1,6 +1,6 @@
 #include "../lib/Human.hpp"
 #include <iostream>
-#include "clear_buffer.cpp"
+
 
 Human::Human()
 {
