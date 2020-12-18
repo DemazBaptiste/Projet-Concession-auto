@@ -11,18 +11,18 @@ Employee::Employee(string f, string l, string d, string q){
     do{
         x = x+1;
         idEmployee = q + to_string(x);
-    }while(already_exist(idEmployee))
+    }while(already_exist(all_employee, idEmployee))
 }
 
 void Employee::write_syntax(){
 
 }
 
-int already_exist(Employee_list el, string id )
+int already_exist(Employee_list ae, string id )
 {
-    for (int i = 0; i < el.size(); i++){
-        if(el[i].idEmployee == id){
-            return 1
+    for (int i = 0; i < ae.membres.size(); i++){
+        if(ae.membres[i].idEmployee == id){
+            return 1;
         }
     }
     return 0;
