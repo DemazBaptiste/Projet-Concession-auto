@@ -46,8 +46,7 @@ std::string Human::getDate()
 
 void Human::write_syntax()
 {
-  std::cout << "Nom : " << lName << "\nPrénom : " << fName << "\nDate : " << date <<
-  "\nPhone : " << "\n";
+  std::cout << "Nom : " << lName << "\nPrénom : " << fName << "\nDate : " << date << "\n";
 }
 
 
