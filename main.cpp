@@ -50,10 +50,6 @@ int Sous_menu()
 
 
         break;
-      default:
-      cout<<"Ecrivez Français et réessayez bande d'illettrés!!";
-      Sous_menu();
-      return 0;
     }
     return 0;
 }
@@ -94,13 +90,6 @@ int Menu1()
         Sous_menu();
 
         break;
-      default :
-        cout<<"Ecrivez Français et réessayez bande d'illettrés!!";
-        if (choiceMenu < 0 && choiceMenu > 5){
-          Menu1();
-        }
-        else
-          return 84;
     }
     return 0;
 }
